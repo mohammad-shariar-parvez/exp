@@ -1,0 +1,35 @@
+{
+  "name": "pcgadgets",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A MERN stack Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaimulSakib/pc-gadgets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaimulSakib/pc-gadgets/issues"
+  },
+  
+  "homepage": "https://github.com/NaimulSakib/pc-gadgets#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.1",
+    "nodemon": "^2.0.7"
+  }
+}

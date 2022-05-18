@@ -1,0 +1,35 @@
+/* =========
+Deal
+======== */
+.deal {
+	background: var(--color2);
+	display: grid;
+	grid-template-columns: 800px 1fr;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.deal-details {
+	margin-right: 150px;
+	text-align: center;
+}
+
+.deal-details>* {
+	margin-top: 10px;
+}
+
+.deal-details h2 {
+	color: var(--color3);
+	margin-bottom: 10px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+/* .deal-details button {
+	padding: 10px;
+	background: var(--color3);
+	color: var(--color2);
+	cursor: pointer;
+} */
